@@ -20,6 +20,11 @@
     --color-sombra: #00000028;
 }
 
+strong{
+    color: var(--color2);
+    font-weight: 800;
+}
+
 header{
     position: relative;
     display: flex;
