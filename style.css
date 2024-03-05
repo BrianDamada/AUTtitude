@@ -58,7 +58,7 @@ header{
     margin: auto;
     width: 500px;
     position: absolute;
-    top: 40vh;
+    top: 400px;
     right: 45%;
 }
 .logo-titulo{
@@ -209,6 +209,84 @@ header{
         right: auto;
         margin: auto;
         margin-left: 32px;
+    }
+
+    .descricao-de-servico{
+        margin: auto;
+    }
+
+    .video{
+        position: relative;
+        padding-bottom: 56.25%;
+        height: 0;
+        overflow: hidden;
+    }
+    
+}
+
+@media screen and (max-width: 580px) {
+    .texto-banner-principal{
+        width: auto;
+    }
+
+    .video{
+        position: relative;
+        padding-bottom: 56.25%; /* Proporção de 16:9 para vídeos widescreen, ajuste conforme necessário */
+        height: 0;
+        overflow: hidden;
+        width: 90%;
+    }
+
+    .video iframe{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .texto-video{
+        padding: 5%;
+    }
+    .textos-video h1{
+        font-size: 24px;
+    }
+
+    .texto-paulo{
+        text-align: center;
+    }
+
+    .descricao-de-servico{
+        padding: 3%;
+    }
+
+    .descricao-de-servico h1{
+        font-size: 32px;
+    }
+    .descricao-de-servico p{
+        font-size: 16px;
+    }
+
+    .banner-principal{
+        height: 500px;
+    }
+
+    .texto-banner-principal{
+        top: 270px;
+    }
+
+    .paulo-berin{
+        display: flexbox;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+
+    .foto-paulo{
+        margin-right: 0;
+        margin: auto;
+    }
+    .foto-paulo img{
+        margin: auto;
     }
 }
 
