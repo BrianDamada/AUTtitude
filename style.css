@@ -49,7 +49,7 @@ header{
     width: auto;
     height: 720px;
     background-image: url('midia/banner/banner.png');
-    background-position: left center;
+    background-position: center center;
 }
 
 .texto-banner-principal h1{
@@ -152,8 +152,8 @@ header{
 
 .foto-paulo{
     display: flex;
-    width: 250px;
-    margin-right: 19rem;
+    width: 290px;
+    margin-right: 15rem;
 }
 
 .paulo-berin{
@@ -319,6 +319,19 @@ footer li{
     
 }
 
+@media screen and (max-width: 830px) {
+    .banner-principal{
+        background-image: url('midia/banner/banner-mobiel.png');
+        background-position: center center;
+    }
+
+    .texto-banner-principal{
+        margin-top: 0;
+        top: 300px;
+        width: 70vw;
+    }
+}
+
 @media screen and (max-width: 580px) {
     .texto-banner-principal{
         margin: 0;
@@ -379,6 +392,22 @@ footer li{
         justify-content: center;
         align-items: center;
         margin: auto;
+    }
+
+    .quarto-ato{
+        margin: 0;
+        padding: 16px;
+    }
+
+    .rodape{
+        align-items: center;
+        justify-content: center;
+    }
+    #selo{
+        
+    }
+    .logo-header img{
+        margin-left: 8vw;
     }
 
     .foto-paulo{
