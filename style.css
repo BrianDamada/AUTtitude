@@ -98,19 +98,28 @@ header{
     justify-content: space-between;
     margin: 2% 5%;
 }
-.carrocel img{
-    border-radius: 20px;
-}
 .carrocel h1{
     font-size: 2rem;
     padding: 20px 0;
     text-align: center;
     background-color: var(--color2);
     color: var(--color1);
+
 }
 
 .empresas-deconfianca{
     width: 13%;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+   filter: gray; 
+   transition: all 0.3s;
+
+   cursor: pointer;
+}
+
+.empresas-deconfianca:hover{
+    filter: grayscale(0%);
+    width: 14%;;
 }
 
 .segundo-ato{
@@ -125,6 +134,9 @@ header{
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
+
+
 
 .descricao-de-servico{
     background-color: var(--color2);
